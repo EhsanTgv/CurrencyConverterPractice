@@ -1,6 +1,6 @@
 package com.taghavi.currencyconverterpractice.data.model
 
-data class Data(
+data class Rates(
     val AUD: Double,
     val BGN: Double,
     val BRL: Double,
@@ -32,6 +32,6 @@ data class Data(
     val SGD: Double,
     val THB: Double,
     val TRY: Double,
-    val USD: Int,
+    val USD: Double,
     val ZAR: Double
 )
